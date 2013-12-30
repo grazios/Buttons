@@ -8,7 +8,9 @@ class AppDelegate
 
 
     root = AppRootController.alloc.initWithNibName(nil, bundle: nil)
+    #naviの設定
     nav = UINavigationController.alloc.initWithRootViewController(root)
+    #tab
     tab = UITabBarController.alloc.initWithNibName(nil,bundle: nil)
     tab.viewControllers = [nav]
 
